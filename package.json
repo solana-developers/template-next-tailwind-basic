@@ -44,6 +44,12 @@
     "typescript": "^5"
   },
   "create-solana-dapp": {
+    "rename": {
+      "placeholder": {
+        "to": "{{name}}",
+        "paths": ["src"]
+      }
+    },
     "instructions": [
       "Run Anchor commands:",
       "+{pm} run anchor build | test | localnet | deploy"
